@@ -1,0 +1,33 @@
+# AI Resume Agent - Requirements
+# Core dependencies
+
+# Data validation and serialization
+pydantic>=2.0.0
+
+# Web framework
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+
+# HTTP client for API calls (MiniMax, OpenAI, Gemini)
+requests>=2.28.0
+
+# Document generation and parsing
+python-docx>=1.1.0
+PyPDF2>=3.0.0
+
+# Optional: OpenAI API client (uncomment when ready)
+# openai>=1.0.0
+
+# Optional: Google Gemini API client (uncomment when ready)
+# google-genai>=0.3.0
+
+# Optional: Vector database for Phase 2 RAG upgrade
+# chromadb>=0.4.0
+
+# Development and testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# Code formatting
+black>=23.0.0
+ruff>=0.1.0
