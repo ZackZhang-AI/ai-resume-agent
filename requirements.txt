@@ -9,7 +9,7 @@ fastapi>=0.100.0
 uvicorn[standard]>=0.23.0
 
 # HTTP client for API calls (MiniMax, OpenAI, Gemini)
-requests>=2.28.0
+requests>=2.34.2
 
 # Document generation and parsing
 python-docx>=1.2.0
